@@ -43,6 +43,7 @@ The *--exclude* switch is very powerful. It doesn’t take names of directories 
 tar -czvf archive.tar.gz /path/to/directory --exclude=*.mp4
 ```
 <br />
+
 # Use bzip2 Compression Instead
 While gzip compression is most frequently used to create .tar.gz or .tgz files, tar also supports bzip2 compression. This allows you to create bzip2-compressed files, often named .tar.bz2, .tar.bz, or .tbz files. To do so, just replace the *-z* for gzip in the tar commands with a *-j* for bzip2.
 
@@ -54,6 +55,7 @@ For example, say we wanted to compress our atlantis directory from our above exa
 tar -cjvf atlantis.tar.bz2 atlantis
 ```
 <br />
+
 # Extract an Archive
 The following command would extract the contents of archive.tar.gz to the current directory:<br /><br />
 
