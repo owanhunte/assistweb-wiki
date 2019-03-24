@@ -1,3 +1,3 @@
 # AssistWeb Wiki
 
-Repository for the official AsstWeb Wiki.
+Repository for the official AssistWeb Wiki.
