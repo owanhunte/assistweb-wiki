@@ -19,5 +19,4 @@ A Full Outer Join returns all rows in both the Left and Right tables. Any time a
 
 The following diagram shows a visual representation of these types of SQL joins, taken from the article [Visual Representation of SQL Joins](https://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins "read article").
 
-
 ![Visual Sql Joins V 2](/uploads/sql/visual-sql-joins-v-2.png "Visual Sql Joins V 2"){.align-center}
