@@ -2,7 +2,7 @@
 
 The GNU tar command included with Linux distributions has integrated compression. It can create a .tar archive and then compress it with gzip or bzip2 compression in a single command, resulting in a .tar.gz file or .tar.bz2 file respectively.
 # Compress an Entire Directory or a Single File
-Use the following command to compress an entire directory or a single file on Linux. It works recursively, compressing every other directory inside the directory you specify.<br />
+Use the following command to compress an entire directory or a single file on Linux. It works recursively, compressing every other directory inside the directory you specify.<br /><br />
 
 ```bash
 tar -czvf name-of-archive.tar.gz /path/to/directory-or-file
