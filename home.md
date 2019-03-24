@@ -14,3 +14,4 @@ Please note that the full page structure of this wiki is not yet finalized and p
 * [Difference Between Types of SQL Joins](https://wiki.assistweb.co/sql-programming/difference-between-types-of-sql-joins "view page")
 
 # Linux Tips & Tricks
+* [Compress and Extract Files Using Linux tar Command](https://wiki.assistweb.co/linux-tips-tricks/compress-extract-files-using-linux-tar-command)
