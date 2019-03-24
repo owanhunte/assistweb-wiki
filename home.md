@@ -8,9 +8,9 @@ Please note that the full page structure of this wiki is not yet finalized and p
 
 # Database Administration/Development
 
-## SQL Programming
+## [SQL Programming](https://wiki.assistweb.co/sql-programming)
 
 * Import/Export MySQL Database via Command Line
-* [Difference Between Types of SQL Joins](https://wiki.assistweb.co/difference-between-types-of-sql-joins "view page")
+* [Difference Between Types of SQL Joins](https://wiki.assistweb.co/sql-programming/difference-between-types-of-sql-joins "view page")
 
 # Linux Tips & Tricks
