@@ -6,7 +6,11 @@ The purpose of this Wiki is to act as a central repository for useful informatio
 
 Please note that the full page structure of this wiki is not yet finalized and pages are actively being added.
 
-## Database Administration/Development
-### SQL Programming
+# Database Administration/Development
+
+## SQL Programming
+
 * Import/Export MySQL Database via Command Line
-* Difference Between Types of SQL Joins
+* [Difference Between Types of SQL Joins](https://wiki.assistweb.co/difference-between-types-of-sql-joins "view page")
+
+# Linux Tips & Tricks
