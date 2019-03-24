@@ -21,6 +21,7 @@ For example, say you have a directory named **atlantis** in the current director
 tar -czvf atlantis.tar.gz atlantis
 ```
 <br />
+
 # Compress Multiple Directories or Files at Once
 The **tar** command can also be used to compress multiple directories, multiple individual files, or both. Just provide a list of files or directories instead of a single one. For example:<br /><br />
 
