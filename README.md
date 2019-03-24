@@ -1,2 +1,3 @@
-# assistweb-wiki
-Repo for the official AsstWeb Wiki.
+# AssistWeb Wiki
+
+Repository for the official AsstWeb Wiki.
