@@ -69,6 +69,7 @@ The following command would extract the contents of archive.tar.gz to the curren
 tar -xzvf archive.tar.gz
 ```
 
+
 The *-x* switch replaces the *-c* switch from the compress command, and it specifies that you want to extract an archive instead of create one.
 
 You may want to extract the contents of the archive to a specific directory. You can do so by appending the *-C* switch to the end of the command. For example, the following command will extract the contents of the archive.tar.gz file to the /tmp directory:
@@ -77,8 +78,7 @@ You may want to extract the contents of the archive to a specific directory. You
 ```bash
 tar -xzvf archive.tar.gz -C /tmp
 ```
-  
-	
+
 If the file is a bzip2-compressed file, replace the “z” in the above commands with a “j”.
 
 This is the simplest possible usage of the tar command. The command includes a large number of additional options. For more information run the **info tar** command at the shell to view the tar command’s detailed information page. Press the **q** key to quit the information page when you’re done. There is also an [online manual](https://www.gnu.org/software/tar/manual/tar.html) available at GNU's official website. On Windows, you can extract and create .tar archives with the free [7-Zip](https://www.7-zip.org/) utility.
