@@ -77,7 +77,7 @@ You may want to extract the contents of the archive to a specific directory. You
 ```bash
 tar -xzvf archive.tar.gz -C /tmp
 ```
-
+  
 If the file is a bzip2-compressed file, replace the “z” in the above commands with a “j”.
 
 This is the simplest possible usage of the tar command. The command includes a large number of additional options. For more information run the **info tar** command at the shell to view the tar command’s detailed information page. Press the **q** key to quit the information page when you’re done. There is also an [online manual](https://www.gnu.org/software/tar/manual/tar.html) available at GNU's official website. On Windows, you can extract and create .tar archives with the free [7-Zip](https://www.7-zip.org/) utility.
