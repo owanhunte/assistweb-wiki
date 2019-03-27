@@ -2,7 +2,7 @@
 <!-- SUBTITLE: ...on Linux Ubuntu 18.04 LTS using Node Version Manager (NVM) -->
 
 # Install cURL
-Install cURL if it is not yet present on the system, via the terminal:
+Install cURL if it is not yet present on the system, via the terminal:<br><br>
 
 ```bash
 sudo apt install curl
