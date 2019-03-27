@@ -15,3 +15,4 @@ Please note that the full page structure of this wiki is not yet finalized and p
 
 # Linux Tips & Tricks
 * [Compress and Extract Files Using Linux tar Command](https://wiki.assistweb.co/linux-tips-tricks/compress-extract-files-using-linux-tar-command)
+* [Install Node.js](https://wiki.assistweb.co/linux-tips-tricks/install-node-js)
