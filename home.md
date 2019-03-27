@@ -16,3 +16,7 @@ Please note that the full page structure of this wiki is not yet finalized and p
 # Linux Tips & Tricks
 * [Compress and Extract Files Using Linux tar Command](https://wiki.assistweb.co/linux-tips-tricks/compress-extract-files-using-linux-tar-command)
 * [Install Node.js](https://wiki.assistweb.co/linux-tips-tricks/install-node-js)
+
+# Install/Setup Scripts
+* [Ubuntu Production Server Setup](https://wiki.assistweb.co/install-setup-scripts#ubuntu-production-server-setup)
+* [Apache2/PHP Install Scripts for Ubuntu/Debian/Mint](https://wiki.assistweb.co/install-setup-scripts#apache-2-php-install-scripts-for-ubuntu-debian-mint)
