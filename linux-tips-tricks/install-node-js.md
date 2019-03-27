@@ -1,4 +1,4 @@
-<!-- TITLE: Install Node Js -->
+<!-- TITLE: Install Node.js -->
 <!-- SUBTITLE: ...on Linux Ubuntu 18.04 LTS using Node Version Manager (NVM) -->
 
 # Install cURL
