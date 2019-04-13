@@ -18,6 +18,7 @@ Please note that the full page structure of this wiki is not yet finalized and p
 * [Install Node.js](https://wiki.assistweb.co/linux-tips-tricks/install-node-js)
 * [Redirecting Ports 80 And 443](https://wiki.assistweb.co/linux-tips-tricks/redirecting-ports-80-and-443)
 * [Hold/Unhold a Linux Package](https://wiki.assistweb.co/linux-tips-tricks/hold-and-unhold-package)
+* [Updating Software](https://wiki.assistweb.co/linux-tips-tricks/updating-software)
 
 # Install/Setup Scripts
 * [Ubuntu Production Server Setup](https://wiki.assistweb.co/install-setup-scripts#ubuntu-production-server-setup)
