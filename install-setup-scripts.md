@@ -18,22 +18,4 @@ We've created a [**GitHubGist**](https://gist.github.com/owanhunte/9c56ef421c333
 The gist can be found here: https://gist.github.com/owanhunte/9c56ef421c333911fb4497914cba8a53
 
 # Installing NGINX on Ubuntu Server 18.04
-First, install the latest version of Nginx server using the following commands:
-
-```bash
-sudo apt-get update && sudo apt-get upgrade -y
-sudo apt-get install nginx -y
-```
-
-Run the following commands to start and check the status of Nginx:
-
-```bash
-sudo systemctl status nginx    # To check the status of nginx
-sudo systemctl start nginx     # To start nginx
-```
-
-Ensure every time you restart your system Nginx starts up automatically.
-
-```bash
-sudo systemctl enable nginx
-```
+[How to install, setup and configure Nginx HTTP server](/install-setup-scripts/install-nginx-server)
