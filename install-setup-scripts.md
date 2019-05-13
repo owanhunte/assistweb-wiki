@@ -16,3 +16,24 @@ We've created a [**GitHubGist**](https://gist.github.com/owanhunte/9c56ef421c333
 *   _php_ini_settings.md_ - Provides suggestions for recommended PHP configuration settings after running _install_apache_php.sh_ and _install_php_modules.sh_
 
 The gist can be found here: https://gist.github.com/owanhunte/9c56ef421c333911fb4497914cba8a53
+
+# Installing NGINX on Ubuntu Server 18.04
+First, install the latest version of Nginx server using the following commands:
+
+```bash
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get install nginx -y
+```
+
+Run the following commands to start and check the status of Nginx:
+
+```bash
+sudo systemctl status nginx    # To check the status of nginx
+sudo systemctl start nginx     # To start nginx
+```
+
+Ensure every time you restart your system Nginx starts up automatically.
+
+```bash
+sudo systemctl enable nginx
+```
