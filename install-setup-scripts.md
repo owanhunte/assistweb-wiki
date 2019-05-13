@@ -18,4 +18,4 @@ We've created a [**GitHubGist**](https://gist.github.com/owanhunte/9c56ef421c333
 The gist can be found here: https://gist.github.com/owanhunte/9c56ef421c333911fb4497914cba8a53
 
 # Installing NGINX on Ubuntu Server 18.04
-[How to install, setup and configure Nginx HTTP server](/install-setup-scripts/install-nginx-server)
+[How to install, setup and configure Nginx HTTP server](install-setup-scripts/install-nginx-server)
