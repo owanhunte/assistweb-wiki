@@ -22,3 +22,6 @@ Ensure every time you restart your system Nginx starts up automatically:<br><br>
 ```bash
 sudo systemctl enable nginx
 ```
+
+# Configure the websites
+The configuration files for each website you want to setup on Nginx are found in the <code>/etc/nginx/sites-available</code> path. Initially there is just the **default** file which should of course be modified as needed.
