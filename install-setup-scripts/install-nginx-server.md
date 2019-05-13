@@ -4,8 +4,8 @@
 First, install the latest version of Nginx server using the following commands:<br><br>
 
 ```bash
-sudo apt-get update && sudo apt-get upgrade -y
-sudo apt-get install nginx -y
+sudo apt update && sudo apt upgrade -y
+sudo apt install nginx -y
 ```
 <br>
 
