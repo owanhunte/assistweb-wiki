@@ -41,3 +41,23 @@ pm2 ls
 pm2 delete app
 ```
 <br>
+
+Default process name is the filename without .js (eg: app for app.js). Use --name or -n to change. Once in your process list, use the process name to interact with your application.<br><br>
+
+
+```batchfile
+# stop the process (kill the process but keep it in the process list)
+pm2 stop app
+
+# start the process
+pm2 start app
+
+# both stop and start
+pm2 restart app
+```
+<br>
+
+# Access your logs
+Access your logs in realtime with `pm2 logs app`.
+
+Consult your logs history files in the `~/.pm2/logs` folder.
