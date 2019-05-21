@@ -108,7 +108,38 @@ Server: nginx/1.16.0
 <br>
 
 # Configuring the websites
-The configuration files for each website you want to setup on NGINX are found in the <code>/etc/nginx/sites-available</code> path. Initially there is just the **default** file which should of course be modified as needed.
+The configuration files for each website you want to setup on NGINX should be placed in the <code>/etc/nginx/conf.d</code> path, with a `.conf` extension. The following is the configuration file for the *AssistWeb website*, which is currently a NodeJS application.<br><br>
+
+```batchfile
+upstream nodejs {
+    # List of Node.JS Application Servers (only 1 for now)
+    server 172.31.24.46:8081;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name  www.assistweb.co;
+    return 301 http://assistweb.co$request_uri;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+
+    server_name assistweb.co;
+
+    location / {
+        proxy_pass http://nodejs;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+```
+<br>
 
 To test configuration changes to the site configuration files and reload NGINX, run the following commands:<br><br>
 
