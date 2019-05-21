@@ -31,7 +31,7 @@ pm2 delete app
 ```
 <br>
 
-Default process name is the filename without .js (eg: app for app.js). Use --name or -n to change. Once in your process list, use the process name to interact with your application.<br><br>
+The default process name is the filename without .js (eg: app for app.js). Use --name or -n to change. Once in your process list, use the process name to interact with your application.<br><br>
 
 ```batchfile
 # stop the process (kill the process but keep it in the process list)
@@ -53,4 +53,12 @@ Consult your logs history files in the `~/.pm2/logs` folder.
 # Startup Hook
 The purpose of a startup hook is to save your process list and bring it back at machine restarts, even unexpected ones.
 
-Each OS has a specific tool to handle startup hooks: PM2 provides an easy way to generate and configure them. To detect available init systems on your machine and generate a configuration, use:<br><br>
+Each OS has a specific tool to handle startup hooks: PM2 provides an easy way to generate and configure them. To detect available init systems on your machine and generate a configuration, run `pm2 startup`. Running that command on one of our Ubuntu EC2 instances for example resulted in the following output:<br><br>
+
+```batchfile
+pm2 startup
+$ [PM2] Init System found: systemd
+$ [PM2] To setup the Startup Script, copy/paste the following command:
+$ sudo env PATH=$PATH:/home/ubuntu/.nvm/versions/node/v10.15.3/bin /home/ubuntu/.nvm/versions/node/v10.15.3/lib/node_modules/pm2/bin/pm2 startup systemd -u ubuntu --hp /home/ubuntu
+```
+<br>
