@@ -81,7 +81,21 @@ $ sudo apt install nginx
 ```
 <br>
 
-Start NGINX open source with the command `sudo nginx`.
+Run the following commands to start and check the status of NGINX:<br><br>
+
+```batchfile
+$ sudo systemctl status nginx    # To check the status of nginx
+$ sudo systemctl start nginx     # To start nginx
+```
+<br>
+
+Ensure every time you restart your system NGINX starts up automatically:<br><br>
+
+```batchfile
+$ sudo systemctl enable nginx
+```
+<br>
+
 
 Verify that NGINX open source is up and running:<br><br>
 
