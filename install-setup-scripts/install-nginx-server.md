@@ -92,12 +92,13 @@ Server: nginx/1.16.0
 ...
 ```
 <br>
+
 # Configuring the websites
 The configuration files for each website you want to setup on NGINX are found in the <code>/etc/nginx/sites-available</code> path. Initially there is just the **default** file which should of course be modified as needed.
 
 To test configuration changes to the site configuration files and reload NGINX, run the following commands:<br><br>
 
-```bash
+```batchfile
 sudo nginx -t
 sudo /etc/init.d/nginx reload
 ```
