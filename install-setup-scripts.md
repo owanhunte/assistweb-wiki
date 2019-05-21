@@ -19,3 +19,6 @@ The gist can be found here: https://gist.github.com/owanhunte/9c56ef421c333911fb
 
 # Installing NGINX on Ubuntu Server 18.04
 [How to install, setup and configure Nginx HTTP server](/install-setup-scripts/install-nginx-server)
+
+# Installing PM2
+[PM2 Runtime](/install-setup-scripts/install-pm-2)
