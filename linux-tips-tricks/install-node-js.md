@@ -25,7 +25,7 @@ nvm install node # "node" is an alias for the latest version
 ```
 <br>
 
-To install a specific version of node:
+To install a specific version of node:<br><br>
 
 ```bash
 nvm install 10.15.3
