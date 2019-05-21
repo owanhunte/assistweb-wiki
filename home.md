@@ -24,3 +24,4 @@ Please note that the full page structure of this wiki is not yet finalized and p
 * [Ubuntu Production Server Setup](/install-setup-scripts#ubuntu-production-server-setup)
 * [Apache2/PHP Install Scripts for Ubuntu/Debian/Mint](/install-setup-scripts#apache-2-php-install-scripts-for-ubuntu-debian-mint)
 * [Installing NGINX on Ubuntu Server 18.04](/install-setup-scripts/install-nginx-server)
+* [Installing PM2 Runtime](/install-setup-scripts/install-pm-2)
