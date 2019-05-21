@@ -23,12 +23,14 @@ To download, compile and install the latest release of node, use this command:<b
 ```bash
 nvm install node # "node" is an alias for the latest version
 ```
+<br>
 
 To install a specific version of node:
 
 ```bash
 nvm install 10.15.3
 ```
+<br>
 
 The first version installed becomes the default. New shells will start with the default version of node (e.g., ```nvm alias default```).
 
@@ -37,6 +39,7 @@ You can list available versions using ls-remote:<br><br>
 ```bash
 nvm ls-remote
 ```
+<br>
 
 To set a specific version as the default version use the command:<br><br>
 
@@ -44,9 +47,11 @@ To set a specific version as the default version use the command:<br><br>
 nvm use node # sets the latest release as the default version
 nvm use 10.15.3 # sets v10.15.3 as the default version
 ```
+<br>
 
 To upgrade to the latest working `npm` on the current, default node version use the command:<br><br>
 
 ```bash
 nvm install-latest-npm
 ```
+<br>
