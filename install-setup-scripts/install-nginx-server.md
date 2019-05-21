@@ -108,7 +108,7 @@ Server: nginx/1.16.0
 <br>
 
 # Configuring the websites
-The configuration files for each website you want to setup on NGINX should be placed in the <code>/etc/nginx/conf.d</code> path, with a `.conf` extension. The following is the configuration file for the *AssistWeb website*, which is currently a NodeJS application.<br><br>
+The configuration files for each website you want to setup on NGINX should be placed in the <code>/etc/nginx/conf.d</code> path, with a `.conf` extension. The following is a sample (non-SSL enabled) configuration file for the *AssistWeb website*, which is currently a NodeJS application.<br><br>
 
 ```batchfile
 upstream nodejs {
