@@ -6,31 +6,21 @@ PM2 Runtime is a Production Process Manager for Node.js applications with a buil
 # Install pm2
 With npm:<br><br>
 
-```bash
+```batchfile
 npm install pm2 -g
 ```
 <br>
 
 # CLI autocompletion
-By default, CLI autocompletion is not installed with PM2, so run the following command to install it:<br><br>
-
-```bash
-pm2 completion install
-```
-<br>
+By default, CLI autocompletion is not installed with PM2, so run the command `pm2 completion install` to install it.
 
 # Updating
-Keep pm2 up to date with:<br><br>
-
-```bash
-npm install pm2 -g && pm2 update
-```
-<br>
+Keep pm2 up to date with `npm install pm2 -g && pm2 update`.
 
 # The process list
 The process list is where all running applications are registered. Manage your process list in a few commands:<br><br>
 
-```bash
+```batchfile
 # start and add a process to your list
 pm2 start app.js
 
