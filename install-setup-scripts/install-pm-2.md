@@ -2,7 +2,6 @@
 <!-- SUBTITLE: Production Process Manager for Node.js applications -->
 
 PM2 Runtime is a Production Process Manager for Node.js applications with a built-in Load Balancer. It allows us to keep our applications alive forever, to reload them without downtime and facilitate common Devops tasks.
-
 # Install pm2
 With npm:<br><br>
 
@@ -34,7 +33,6 @@ pm2 delete app
 
 Default process name is the filename without .js (eg: app for app.js). Use --name or -n to change. Once in your process list, use the process name to interact with your application.<br><br>
 
-
 ```batchfile
 # stop the process (kill the process but keep it in the process list)
 pm2 stop app
@@ -51,3 +49,8 @@ pm2 restart app
 Access your logs in realtime with `pm2 logs app`.
 
 Consult your logs history files in the `~/.pm2/logs` folder.
+
+# Startup Hook
+The purpose of a startup hook is to save your process list and bring it back at machine restarts, even unexpected ones.
+
+Each OS has a specific tool to handle startup hooks: PM2 provides an easy way to generate and configure them. To detect available init systems on your machine and generate a configuration, use:<br><br>
