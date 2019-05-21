@@ -31,7 +31,7 @@ npm install pm2 -g && pm2 update
 The process list is where all running applications are registered. Manage your process list in a few commands:<br><br>
 
 ```bash
-pm2 completion install# start and add a process to your list
+# start and add a process to your list
 pm2 start app.js
 
 # show your list
