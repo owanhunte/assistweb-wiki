@@ -44,3 +44,9 @@ To set a specific version as the default version use the command:<br><br>
 nvm use node # sets the latest release as the default version
 nvm use 10.15.3 # sets v10.15.3 as the default version
 ```
+
+To upgrade to the latest working `npm` on the current, default node version use the command:<br><br>
+
+```bash
+nvm install-latest-npm
+```
