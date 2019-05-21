@@ -62,3 +62,24 @@ $ [PM2] To setup the Startup Script, copy/paste the following command:
 $ sudo env PATH=$PATH:/home/ubuntu/.nvm/versions/node/v10.15.3/bin /home/ubuntu/.nvm/versions/node/v10.15.3/lib/node_modules/pm2/bin/pm2 startup systemd -u ubuntu --hp /home/ubuntu
 ```
 <br>
+
+Copy and paste in the CLI the ouput of this command to set up your startup hook.
+
+> **Note**: With NVM, the `pm2` path change when updating Node.js. You need to run the `startup` command after every update.
+
+## Disabling Startup System
+
+```batchfile
+pm2 unstartup
+```
+<br>
+
+## Update startup hook
+
+To update the startup hook run the following commands:<br><br>
+
+```batchfile
+pm2 unstartup
+pm2 startup
+```
+<br>
