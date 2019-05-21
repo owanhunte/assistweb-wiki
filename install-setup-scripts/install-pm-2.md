@@ -65,10 +65,10 @@ $ sudo env PATH=$PATH:/home/ubuntu/.nvm/versions/node/v10.15.3/bin /home/ubuntu/
 
 Copy and paste in the CLI the ouput of this command to set up your startup hook.
 
-> **Note**: With NVM, the `pm2` path change when updating Node.js. You need to run the `startup` command after every update.<br>
+> **Note**: With NVM, the `pm2` path change when updating Node.js. You need to run the `startup` command after every update.<br><br>
 
 ## Disabling Startup System
-<br>
+<br><br>
 
 ```batchfile
 pm2 unstartup
