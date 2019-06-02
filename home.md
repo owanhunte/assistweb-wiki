@@ -18,6 +18,7 @@ Please note that the full page structure of this wiki is not yet finalized and p
 * [Install Node.js](/linux-tips-tricks/install-node-js)
 * [Redirecting Ports 80 And 443](/linux-tips-tricks/redirecting-ports-80-and-443)
 * [Hold/Unhold a Linux Package](/linux-tips-tricks/hold-and-unhold-package)
+* [Using htop To Monitor System Processes on Linux](/linux-tips-tricks/using-htop-to-monitor-system-processes-on-linux)
 * [Updating Software](/linux-tips-tricks/updating-software)
 
 # Install/Setup Scripts
