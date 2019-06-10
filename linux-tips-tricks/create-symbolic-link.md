@@ -29,7 +29,7 @@ $ ln -s {source-filename} {symbolic-filename}
 ```
 <br>
 
-For example the following command creates a symbolic link for `/etc/nginx/sites-available/helpdesk.assistweb.co` as `/etc/nginx/sites-enabled/helpdesk.assistweb.co`. This example requires administrative privileges to run so we use sudo:<br><br>
+For example the following command creates a symbolic link for `/etc/nginx/sites-available/helpdesk.assistweb.co` as `/etc/nginx/sites-enabled/helpdesk.assistweb.co`. This example requires administrative privileges to run so we use sudo as well:<br><br>
 
 ```batchfile
 $ sudo ln -s /etc/nginx/sites-available/helpdesk.assistweb.co /etc/nginx/sites-enabled/helpdesk.assistweb.co
