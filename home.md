@@ -15,6 +15,7 @@ Please note that the full page structure of this wiki is not yet finalized and p
 
 # Linux Tips & Tricks
 * [Compress and Extract Files Using Linux tar Command](/linux-tips-tricks/compress-extract-files-using-linux-tar-command)
+* [Create Symbolic Link](/linux-tips-tricks/create-symbolic-link)
 * [Install Node.js](/linux-tips-tricks/install-node-js)
 * [Redirecting Ports 80 And 443](/linux-tips-tricks/redirecting-ports-80-and-443)
 * [Hold/Unhold a Linux Package](/linux-tips-tricks/hold-and-unhold-package)
