@@ -23,6 +23,9 @@ The process list is where all running applications are registered. Manage your p
 # start and add a process to your list
 pm2 start app.js
 
+# start and add a process to your list, specifying the process name to set
+pm2 start app.js --name "my-app"
+
 # show your list
 pm2 ls
 
