@@ -13,6 +13,10 @@ Please note that the full page structure of this wiki is not yet finalized and p
 * [Import/Export MySQL Database via Command Line](/sql-programming/import-export-mysql-database-via-command-line "view page")
 * [Difference Between Types of SQL Joins](/sql-programming/difference-between-types-of-sql-joins "view page")
 
+# Git Setup & Usage
+* [Install Git](/git-setup-usage/install-git)
+* [Frequently Used Commands](/git-setup-usage/frequently-used-commands)
+
 # Linux Tips & Tricks
 * [Compress and Extract Files Using Linux tar Command](/linux-tips-tricks/compress-extract-files-using-linux-tar-command)
 * [Create Symbolic Link](/linux-tips-tricks/create-symbolic-link)
