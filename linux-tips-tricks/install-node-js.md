@@ -13,7 +13,7 @@ sudo apt install curl
 Install nvm via cURL:<br><br>
 
 ```bash
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh | bash
 ```
 <br>
 
@@ -28,7 +28,7 @@ nvm install node # "node" is an alias for the latest version
 To install a specific version of node:<br><br>
 
 ```bash
-nvm install 10.15.3
+nvm install 10.16.3
 ```
 <br>
 
@@ -45,7 +45,7 @@ To set a specific version as the default version use the command:<br><br>
 
 ```bash
 nvm use node # sets the latest release as the default version
-nvm use 10.15.3 # sets v10.15.3 as the default version
+nvm use 10.16.3 # sets v10.16.3 as the default version
 ```
 <br>
 
